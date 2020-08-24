@@ -14,4 +14,10 @@ public class MainController {
         return "home";
     }
 
+    @GetMapping("/world-news")
+    public String worldNews( Model model) {
+        model.addAttribute("title", "Мировые Новости");
+        return "world-news";
+    }
+
 }
