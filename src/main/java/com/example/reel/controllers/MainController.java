@@ -19,5 +19,9 @@ public class MainController {
         model.addAttribute("title", "Мировые Новости");
         return "world-news";
     }
-
+    @GetMapping("/usa")
+    public String usa( Model model) {
+        model.addAttribute("title", "U.S.A");
+        return "usa";
+    }
 }
