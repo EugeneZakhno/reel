@@ -24,4 +24,10 @@ public class MainController {
         model.addAttribute("title", "U.S.A");
         return "usa";
     }
+    @GetMapping("/usaа")
+    public String usaа( Model model) {
+        model.addAttribute("title", "U.S.Aа");
+        return "usaа";
+    }
+
 }
