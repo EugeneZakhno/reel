@@ -14,20 +14,6 @@ public class MainController {
         return "home";
     }
 
-    @GetMapping("/world-news")
-    public String worldNews( Model model) {
-        model.addAttribute("title", "Мировые Новости");
-        return "world-news";
-    }
-    @GetMapping("/usa")
-    public String usa( Model model) {
-        model.addAttribute("title", "U.S.A");
-        return "usa";
-    }
-    @GetMapping("/usaа")
-    public String usaа( Model model) {
-        model.addAttribute("title", "U.S.Aа");
-        return "usaа";
-    }
+
 
 }
